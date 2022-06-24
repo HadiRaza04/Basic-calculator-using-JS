@@ -1,0 +1,104 @@
+@font-face {
+    font-family: digital-7;
+    src: url(digital-7.ttf);
+}
+.main {
+    background: rgb(194, 231, 248);
+    width: 400px;
+    height: 540px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    padding: 15px;
+}
+.main p {
+    font-family: digital-7;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+#sub-main1 {
+    width: 380px;
+    height: 70px;
+    background: rgb(224, 220, 220);
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    z-index: 1;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sub-main1:hover {
+    
+    background: rgb(212, 212, 212);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sub-main1:active {
+    background: rgb(46, 60, 250);
+}
+#sub-main2 {
+    width: 380px;
+    height: 380px;
+    background: rgb(194, 231, 248);
+    padding-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sub-main2 > div > button {
+    width: 80px;
+    height: 70px;
+    background: #fab1a0;
+    opacity: 1;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 20px;
+    color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    border: none;
+}
+#sub-main2 .number > button {
+    background: rgb(109, 207, 253);
+    color: black;
+    font-weight: bold;
+}
+#sub-main2 .number > button:hover {
+    background: rgb(15, 172, 245);
+    transform:scale3d(1.03, 1.03, 1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sub-main2 .number > button:active {
+    background: rgb(46, 60, 250);
+}
+#sub-main2 .other > button{
+    font-weight: bold;
+}
+#sub-main2 .other > button:hover {
+     background: #fa775a;
+    transform:scale3d(1.03, 1.03, 1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sub-main2 .other > button:active {
+    background: #fc4e27;
+}
+.main #sub-main1 #display {
+    width: 380px;
+    height: 70px;
+    font-size: 55px;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-family: digital-7;   
+}
