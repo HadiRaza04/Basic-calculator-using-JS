@@ -73,3 +73,4 @@ function display(v) {
         document.getElementById("display").innerText += v
     }
 }
+document.querySelector("#currentYear").innerText = new Date().getFullYear();
